@@ -6,7 +6,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane fx:id="context" prefHeight="583.0" prefWidth="713.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HomePageController">
    <children>
       <Label layoutX="128.0" layoutY="49.0" prefHeight="40.0" prefWidth="86.0" text="To">
@@ -20,7 +19,7 @@
             <Font name="System Bold" size="20.0" />
          </font>
       </Label>
-      <TextField fx:id="txtFromEmail" layoutX="234.0" layoutY="107.0" prefHeight="31.0" prefWidth="315.0" text="rasinthadilshan9@gmail.com" />
+      <TextField fx:id="txtFromEmail" layoutX="234.0" layoutY="107.0" prefHeight="31.0" prefWidth="315.0" />
       <Label layoutX="128.0" layoutY="160.0" prefHeight="40.0" prefWidth="86.0" text="Subject">
          <font>
             <Font name="System Bold" size="20.0" />
